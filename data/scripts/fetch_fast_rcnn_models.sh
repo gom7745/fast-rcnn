@@ -1,10 +1,12 @@
 #!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/../" && pwd )"
+echo $DIR
 cd $DIR
 
 FILE=fast_rcnn_models.tgz
-URL=http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/$FILE
+#URL=http://www.cs.berkeley.edu/~rbg/fast-rcnn-data/$FILE
+URL=http://vision.fe.uni-lj.si/~rokm/rcnn_data/$FILE
 CHECKSUM=5f7dde9f5376e18c8e065338cc5df3f7
 
 if [ -f $FILE ]; then
