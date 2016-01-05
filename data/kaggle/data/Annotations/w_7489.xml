@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <annotation>
    <folder>kaggle</folder>
    <filename>
       <item>w_7489.jpg</item>
    </filename>
    <object>
-      <name>whale</name>
       <bndbox>
          <xmin>1340</xmin>
          <ymin>1226</ymin>
