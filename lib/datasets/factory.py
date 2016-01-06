@@ -39,7 +39,7 @@ for top_k in np.arange(1000, 11000, 1000):
                     _selective_search_IJCV_top_k(split, year, top_k))
 
 # Set up kaggle_<split> using selective search "fast" mode
-kaggle_devkit_path = '/home/coldmanck/kaggle'
+kaggle_devkit_path = '/home/gom7745/MMAI/final/fast-rcnn/data/kaggle'
 for split in ['train', 'test']:
     name = '{}_{}'.format('kaggle', split)
     __sets[name] = (lambda split=split: datasets.kaggle(split, kaggle_devkit_path))

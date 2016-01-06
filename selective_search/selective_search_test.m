@@ -1,4 +1,4 @@
-image_db = '/home/coldmanck/kaggle';
+image_db = '/home/gom7745/MMAI/final/fast-rcnn/data/kaggle';
 image_filenames = textread([image_db '/data/ImageSets/test.txt'], '%s', 'delimiter', '\n');
 for i = 1:length(image_filenames)
     if exist([image_db '/ImagesTest/' image_filenames{i} '.jpg'], 'file') == 2
