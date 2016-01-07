@@ -5,6 +5,7 @@
       <item>w_7706.jpg</item>
    </filename>
    <object>
+      <name>whale</name>
       <bndbox>
          <xmin>1353</xmin>
          <ymin>976</ymin>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+	<folder>kaggle</folder>
+	<filename>
+		<item>w_1283.jpg</item>
+	</filename>
+	<object>
+		<name>whale</name>
+		<bndbox>
+			<xmin>1322</xmin>
+			<ymin>663</ymin>
+			<xmax>1676</xmax>
+			<ymax>1033</ymax>
+		</bndbox>
+	</object>
+</annotation>
